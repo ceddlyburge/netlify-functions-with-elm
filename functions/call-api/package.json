@@ -1,8 +1,8 @@
 {
-  "name": "token-hider",
+  "name": "call-api",
   "version": "1.0.0",
-  "description": "netlify functions:create - how to hide API tokens from your users",
-  "main": "token-hider.js",
+  "description": "Api token hiding demonstration",
+  "main": "call-api.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,12 +10,10 @@
     "netlify",
     "serverless",
     "apis",
+    "elm",
     "js"
   ],
-  "author": "Netlify",
+  "author": "Cedd Burge",
   "license": "MIT",
-  "dependencies": {
-    "axios": "^0.18.0",
-    "qs": "^6.7.0"
-  }
+  "dependencies": {}
 }
